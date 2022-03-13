@@ -15,33 +15,33 @@ for iracellnum in iracell:
                         for t in range(0,10):
                             for g in range(0,10): # print(kalo)
                                 kalo=(str(iracellnum+str(a)+str(b)+str(c)+str(d)+str(e)+str(t)+str(g)+'\n'))
-                                # if kalo[0:4]== '0901':
-                                #         f=open('0901nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0902':
-                                #         f=open('0902nums.txt','a')
-                                #         f.write(kalo)
+                                if kalo[0:4]== '0901':
+                                        f=open('0901nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0902':
+                                        f=open('0902nums.txt','a')
+                                        f.write(kalo)
                                 if kalo[0:4]== '0903':
                                         f=open('0903nums.txt','a')
                                         f.write(kalo)
-                                # if kalo[0:4]== '0904':
-                                #         f=open('0904nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0905':
-                                #         f=open('0905nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0930':
-                                #         f=open('0930nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0931':
-                                #         f=open('0931nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0932':
-                                #         f=open('0932nums.txt','a')
-                                #         f.write(kalo)
-                                # if kalo[0:4]== '0933':
-                                #         f=open('0933nums.txt','a')
-                                #         f.write(kalo)
+                                if kalo[0:4]== '0904':
+                                        f=open('0904nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0905':
+                                        f=open('0905nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0930':
+                                        f=open('0930nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0931':
+                                        f=open('0931nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0932':
+                                        f=open('0932nums.txt','a')
+                                        f.write(kalo)
+                                if kalo[0:4]== '0933':
+                                        f=open('0933nums.txt','a')
+                                        f.write(kalo)
                                 if kalo[0:4]== '0934':
                                         f=open('0934nums.txt','a')
                                         f.write(kalo)
