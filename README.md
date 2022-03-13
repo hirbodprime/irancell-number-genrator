@@ -1,0 +1,1 @@
+generate all irancell numbers
